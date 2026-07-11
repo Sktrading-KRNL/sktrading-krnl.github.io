@@ -1,216 +1,341 @@
- <!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SK TRADING — Hardware & Plywood Store | Karnal</title>
-<meta name="description" content="SK TRADING — Hardware & Plywood Store in Hakikat Nagar, Karnal. Quality plywood sheets and hardware supplies. Order on WhatsApp or call now.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK TRADING | Premium Hardware, Plywood & Laminates</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #f8fafc;
+        }
+        .category-hide { display: none; }
+    </style>
 </head>
-<body>
+<body class="text-slate-800 antialiased">
 
-<!-- ============ HEADER ============ -->
-<header class="site-header" id="siteHeader">
-  <div class="header-inner">
-    <a href="#home" class="brand">
-      <span class="brand-mark">SK</span>
-      <span class="brand-text">
-        <span class="brand-name">SK TRADING</span>
-        <span class="brand-sub">Hardware &amp; Plywood Store</span>
-      </span>
-    </a>
-
-    <nav class="main-nav" id="mainNav">
-      <a href="#home">Home</a>
-      <a href="#plywood">Plywood</a>
-      <a href="#hardware">Hardware</a>
-      <a href="#reviews">Reviews</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-    <div class="header-actions">
-      <button class="cart-btn" id="cartToggle" aria-label="Open cart">
-        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h2l2.4 12.2a2 2 0 0 0 2 1.8h8.4a2 2 0 0 0 2-1.6L21 8H6"/></svg>
-        <span class="cart-count" id="cartCount">0</span>
-      </button>
-      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
-        <span></span><span></span><span></span>
-      </button>
+    <div class="bg-amber-600 text-white text-center py-2 text-xs font-semibold tracking-wider uppercase px-4">
+        Premium Hardware, ISI Plywood, MDF Boards & Designer Sunmica Stock Available • Visit Us in Karnal
     </div>
-  </div>
-</header>
 
-<!-- ============ HERO ============ -->
-<section class="hero" id="home">
-  <div class="hero-media">
-    <img src="banner.jpg" alt="SK TRADING storefront banner" class="hero-img">
-    <div class="hero-overlay"></div>
-  </div>
-  <div class="hero-content reveal">
-    <p class="hero-eyebrow">Hakikat Nagar &middot; Karnal</p>
-    <h1 class="hero-title">SK TRADING</h1>
-    <p class="hero-subtitle">Hardware &amp; Plywood Store</p>
-    <p class="hero-line">Trusted by builders, carpenters &amp; homeowners for genuine plywood sheets and complete hardware supplies — stocked, sorted, ready to go.</p>
-    <div class="hero-actions">
-      <a href="tel:+919466809141" class="btn btn-primary">Call Now</a>
-      <a href="#" class="btn btn-outline-light" id="heroWhatsapp">WhatsApp Us</a>
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex flex-col">
+                <span class="text-2xl font-black tracking-tight text-slate-900 flex items-center gap-1">
+                    SK TRADING<span class="text-amber-600">.</span>
+                </span>
+                <span class="text-[10px] font-bold text-slate-400 tracking-widest uppercase">The Architectural Hub</span>
+            </div>
+            <a href="https://wa.me/919466809141" target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all shadow-md hover:shadow-emerald-100">
+                <i data-lucide="message-square" class="w-4 h-4"></i>
+                <span>Order Portfolio</span>
+            </a>
+        </div>
+    </header>
+
+    <section class="relative bg-slate-950 text-white py-24 px-4 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#f59e0b_1px,transparent_1px)] [background-size:20px_20px]"></div>
+        <div class="relative max-w-4xl mx-auto text-center">
+            <span class="inline-flex items-center gap-1.5 bg-amber-500/10 text-amber-400 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider mb-6 border border-amber-500/20">
+                <i data-lucide="shield" class="w-3.5 h-3.5 text-amber-500"></i> Wholesale & Retail Counter
+            </span>
+            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+                One-Stop Hub for <span class="text-amber-500">Premium Woodworks</span> & Smart Hardware Fitter
+            </h1>
+            <p class="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto mb-10">
+                Direct wholesale distributors of multi-thickness Plywood, highly durable Flush Doors, high-gloss Sunmica sheets, modular kitchen hinges, and trusted industrial adhesives in Haryana.
+            </p>
+            <div class="flex flex-wrap justify-center gap-6 text-xs text-slate-400 font-medium">
+                <span class="flex items-center gap-2"><i data-lucide="check-circle" class="text-emerald-500 w-4 h-4"></i> Hakikat Nagar, Karnal</span>
+                <span class="flex items-center gap-2"><i data-lucide="check-circle" class="text-emerald-500 w-4 h-4"></i> Certified ISI Plywood Stock</span>
+                <span class="flex items-center gap-2"><i data-lucide="check-circle" class="text-emerald-500 w-4 h-4"></i> WhatsApp Instant Quotation</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-14">
+        <div class="text-center mb-10">
+            <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">Explore Materials Directory</h2>
+            <p class="text-slate-500 text-sm mt-2">Filter premium stocks with exact sizing charts, thickness meters, and verified brand catalogs</p>
+        </div>
+        
+        <div class="flex items-center justify-start sm:justify-center gap-2.5 overflow-x-auto pb-4 scrollbar-none snap-x">
+            <button onclick="filterCategory('all')" id="btn-all" class="snap-center shrink-0 px-6 py-3 rounded-full text-sm font-bold transition-all cursor-pointer bg-slate-900 text-white shadow-md">
+                All Collections
+            </button>
+            <button onclick="filterCategory('hardware')" id="btn-hardware" class="snap-center shrink-0 px-6 py-3 rounded-full text-sm font-medium transition-all cursor-pointer bg-white text-slate-600 hover:bg-slate-50 border border-slate-200">
+                Hardware & Fittings
+            </button>
+            <button onclick="filterCategory('plywood')" id="btn-plywood" class="snap-center shrink-0 px-6 py-3 rounded-full text-sm font-medium transition-all cursor-pointer bg-white text-slate-600 hover:bg-slate-50 border border-slate-200">
+                Plywood Boards
+            </button>
+            <button onclick="filterCategory('mdf')" id="btn-mdf" class="snap-center shrink-0 px-6 py-3 rounded-full text-sm font-medium transition-all cursor-pointer bg-white text-slate-600 hover:bg-slate-50 border border-slate-200">
+                MDF & Particle
+            </button>
+            <button onclick="filterCategory('hardwood')" id="btn-hardwood" class="snap-center shrink-0 px-6 py-3 rounded-full text-sm font-medium transition-all cursor-pointer bg-white text-slate-600 hover:bg-slate-50 border border-slate-200">
+                Flush & Timber Doors
+            </button>
+            <button onclick="filterCategory('sunmica')" id="btn-sunmica" class="snap-center shrink-0 px-6 py-3 rounded-full text-sm font-medium transition-all cursor-pointer bg-white text-slate-600 hover:bg-slate-50 border border-slate-200">
+                Sunmica / Laminates
+            </button>
+        </div>
+    </section>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-28">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6" id="products-grid">
+            
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden flex flex-col group transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-category="hardware">
+                <div class="h-52 bg-slate-50 relative overflow-hidden flex items-center justify-center p-6">
+                    <img src="https://images.unsplash.com/photo-1613506161176-88091176b9ee?auto=format&fit=crop&q=80&w=500" alt="Mortise Handles" class="max-h-full max-w-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform">
+                </div>
+                <div class="p-5 flex flex-col flex-grow">
+                    <span class="text-xs font-bold text-amber-600 uppercase tracking-wider mb-1">Fittings Portfolio</span>
+                    <h3 class="text-base font-bold text-slate-900 group-hover:text-amber-600 transition-colors">Premium Mortise Handles & Royal Aldrops</h3>
+                    <p class="text-slate-500 text-xs mt-2 flex-grow">Satin silver finishes, royal brass accents, heavy duty latch systems, and highly protective locking arrangements for home security.</p>
+                    <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-medium text-slate-400">Ready Showroom Stock</span>
+                        <a href="https://wa.me/919466809141?text=Hi%20SK%20Trading,%20I%20want%20to%20enquire%20about%20Premium%20Mortise%20Handles%20and%20Aldrops." target="_blank" class="inline-flex items-center gap-1 text-xs font-bold text-emerald-600 hover:text-emerald-700 bg-emerald-50 px-3 py-1.5 rounded-lg transition-colors">WhatsApp <i data-lucide="arrow-up-right" class="w-3 h-3"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden flex flex-col group transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-category="hardware">
+                <div class="h-52 bg-slate-50 relative overflow-hidden flex items-center justify-center p-6">
+                    <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=500" alt="Cabinet Handles" class="max-h-full max-w-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform">
+                </div>
+                <div class="p-5 flex flex-col flex-grow">
+                    <span class="text-xs font-bold text-amber-600 uppercase tracking-wider mb-1">Wardrobe Profiles</span>
+                    <h3 class="text-base font-bold text-slate-900 group-hover:text-amber-600 transition-colors">Model S-9012 Matte Black & S-5012 Gray Profiles</h3>
+                    <p class="text-slate-500 text-xs mt-2 flex-grow">Modern minimalist profile channels for kitchen drawers and continuous wardrobes. Available in bold dark finishes.</p>
+                    <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-bold text-slate-600 bg-slate-100 px-2 py-0.5 rounded">Sizes: 8" & 18"</span>
+                        <a href="https://wa.me/919466809141?text=Hi%20SK%20Trading,%20I%20want%20to%20enquire%20about%20S-9012%20Black%20and%20S-5012%20Gray%20profile%20handles." target="_blank" class="inline-flex items-center gap-1 text-xs font-bold text-emerald-600 hover:text-emerald-700 bg-emerald-50 px-3 py-1.5 rounded-lg transition-colors">WhatsApp <i data-lucide="arrow-up-right" class="w-3 h-3"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden flex flex-col group transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-category="hardware">
+                <div class="h-52 bg-slate-50 relative overflow-hidden flex items-center justify-center p-6">
+                    <img src="https://images.unsplash.com/photo-1595206133361-b1fe343e5e23?auto=format&fit=crop&q=80&w=500" alt="Drawer Channels" class="max-h-full max-w-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform">
+                </div>
+                <div class="p-5 flex flex-col flex-grow">
+                    <span class="text-xs font-bold text-amber-600 uppercase tracking-wider mb-1">Drawer Automation</span>
+                    <h3 class="text-base font-bold text-slate-900 group-hover:text-amber-600 transition-colors">Heavy Telescopic Channel & Soft-Close Slides</h3>
+                    <p class="text-slate-500 text-xs mt-2 flex-grow">Smooth steel ball-bearing tracks including G.T.P.T 30-inch channels, SKV 10-inch dark runners, and premium 14-inch auto-cushion mechanisms.</p>
+                    <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-bold text-slate-600 bg-slate-100 px-2 py-0.5 rounded">10" to 30" Stock</span>
+                        <a href="https://wa.me/919466809141?text=Hi%20SK%20Trading,%20I%20want%20to%20enquire%20about%20your%20Telescopic%20Drawer%20Channels%20stock." target="_blank" class="inline-flex items-center gap-1 text-xs font-bold text-emerald-600 hover:text-emerald-700 bg-emerald-50 px-3 py-1.5 rounded-lg transition-colors">WhatsApp <i data-lucide="arrow-up-right" class="w-3 h-3"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden flex flex-col group transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-category="hardware">
+                <div class="h-52 bg-slate-50 relative overflow-hidden flex items-center justify-center p-6">
+                    <img src="https://images.unsplash.com/photo-1510519138101-570d1dca3d66?auto=format&fit=crop&q=80&w=500" alt="Adhesives" class="max-h-full max-w-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform">
+                </div>
+                <div class="p-5 flex flex-col flex-grow">
+                    <span class="text-xs font-bold text-amber-600 uppercase tracking-wider mb-1">Industrial Resins</span>
+                    <h3 class="text-base font-bold text-slate-900 group-hover:text-amber-600 transition-colors">Fevicol HeatX, Probond & Chipko Glues</h3>
+                    <p class="text-slate-500 text-xs mt-2 flex-grow">Official synthetic adhesives. Ready stock of rapid-bonding Fevicol HeatX tins, premium waterproof Probond, Chipko, and European Super Bond jars.</p>
+                    <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-medium text-slate-400">All Industrial Tins</span>
+                        <a href="https://wa.me/919466809141?text=Hi%20SK%20Trading,%20I%20want%20to%20enquire%20about%20Fevicol%20HeatX,%20Probond%20and%20Chipko%20glues." target="_blank" class="inline-flex items-center gap-1 text-xs font-bold text-emerald-600 hover:text-emerald-700 bg-emerald-50 px-3 py-1.5 rounded-lg transition-colors">WhatsApp <i data-lucide="arrow-up-right" class="w-3 h-3"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden flex flex-col group transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-category="plywood">
+                <div class="h-52 bg-slate-50 relative overflow-hidden flex items-center justify-center p-6">
+                    <img src="https://images.unsplash.com/photo-1628745277862-bc0f2d7885cb?auto=format&fit=crop&q=80&w=500" alt="Plywood Board" class="max-h-full max-w-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform">
+                </div>
+                <div class="p-5 flex flex-col flex-grow">
+                    <span class="text-xs font-bold text-amber-600 uppercase tracking-wider mb-1">Commercial Timber</span>
+                    <h3 class="text-base font-bold text-slate-900 group-hover:text-amber-600 transition-colors">Premium ISI Grade Waterproof Marine Plywood</h3>
+                    <p class="text-slate-500 text-xs mt-2 flex-grow">High-density Gurjan core blockboards with full termite protection, boiling water resistance, and flawless calibration scales.</p>
+                    
+                    <div class="mt-3 bg-slate-50 p-2.5 rounded-xl border border-slate-100">
+                        <span class="text-[10px] uppercase font-bold text-slate-400 block mb-1">Available Thickness Chart</span>
+                        <div class="flex flex-wrap gap-1">
+                            <span class="text-[10px] font-semibold bg-white border border-slate-200 text-slate-700 px-1.5 py-0.5 rounded">4mm</span>
+                            <span class="text-[10px] font-semibold bg-white border border-slate-200 text-slate-700 px-1.5 py-0.5 rounded">6mm</span>
+                            <span class="text-[10px] font-semibold bg-white border border-slate-200 text-slate-700 px-1.5 py-0.5 rounded">9mm</span>
+                            <span class="text-[10px] font-semibold bg-white border border-slate-200 text-slate-700 px-1.5 py-0.5 rounded">12mm</span>
+                            <span class="text-[10px] font-semibold bg-white border border-slate-200 text-slate-700 px-1.5 py-0.5 rounded">16mm</span>
+                            <span class="text-[10px] font-semibold bg-white border border-slate-200 text-slate-700 px-1.5 py-0.5 rounded">19mm</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-bold text-slate-800">Standard 8x4 Feet</span>
+                        <a href="https://wa.me/919466809141?text=Hi%20SK%20Trading,%20I%20want%20to%20get%20a%20price%20quote%20for%20Waterproof%20Marine%20Plywood." target="_blank" class="inline-flex items-center gap-1 text-xs font-bold text-emerald-600 hover:text-emerald-700 bg-emerald-50 px-3 py-1.5 rounded-lg transition-colors">WhatsApp <i data-lucide="arrow-up-right" class="w-3 h-3"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden flex flex-col group transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-category="mdf">
+                <div class="h-52 bg-slate-50 relative overflow-hidden flex items-center justify-center p-6">
+                    <img src="https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&q=80&w=500" alt="MDF Board" class="max-h-full max-w-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform">
+                </div>
+                <div class="p-5 flex flex-col flex-grow">
+                    <span class="text-xs font-bold text-amber-600 uppercase tracking-wider mb-1">Engineered Wood</span>
+                    <h3 class="text-base font-bold text-slate-900 group-hover:text-amber-600 transition-colors">Action TESA Type High-Density MDF Boards</h3>
+                    <p class="text-slate-500 text-xs mt-2 flex-grow">Ultra-smooth engineered fiber panels. Ideal for modern CNC designer jali cuttings, modular wardrobe shutters, and retail display racks.</p>
+                    
+                    <div class="mt-3 bg-slate-50 p-2.5 rounded-xl border border-slate-100">
+                        <span class="text-[10px] uppercase font-bold text-slate-400 block mb-1">Thickness Options</span>
+                        <div class="flex flex-wrap gap-1">
+                            <span class="text-[10px] font-semibold bg-white border border-slate-200 text-slate-700 px-1.5 py-0.5 rounded">8mm</span>
+                            <span class="text-[10px] font-semibold bg-white border border-slate-200 text-slate-700 px-1.5 py-0.5 rounded">11mm</span>
+                            <span class="text-[10px] font-semibold bg-white border border-slate-200 text-slate-700 px-1.5 py-0.5 rounded">16mm</span>
+                            <span class="text-[10px] font-semibold bg-white border border-slate-200 text-slate-700 px-1.5 py-0.5 rounded">18mm</span>
+                            <span class="text-[10px] font-semibold bg-white border border-slate-200 text-slate-700 px-1.5 py-0.5 rounded">25mm</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-medium text-slate-400">CNC Grade Stock</span>
+                        <a href="https://wa.me/919466809141?text=Hi%20SK%20Trading,%20I%20need%20a%20quotation%20for%20High%20Density%20MDF%20Boards." target="_blank" class="inline-flex items-center gap-1 text-xs font-bold text-emerald-600 hover:text-emerald-700 bg-emerald-50 px-3 py-1.5 rounded-lg transition-colors">WhatsApp <i data-lucide="arrow-up-right" class="w-3 h-3"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden flex flex-col group transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-category="hardwood">
+                <div class="h-52 bg-slate-50 relative overflow-hidden flex items-center justify-center p-6">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=500" alt="Flush Door" class="max-h-full max-w-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform">
+                </div>
+                <div class="p-5 flex flex-col flex-grow">
+                    <span class="text-xs font-bold text-amber-600 uppercase tracking-wider mb-1">Structural Framework</span>
+                    <h3 class="text-base font-bold text-slate-900 group-hover:text-amber-600 transition-colors">Solid Hardwood Core Commercial Flush Doors</h3>
+                    <p class="text-slate-500 text-xs mt-2 flex-grow">Highly durable solid timber fillings inside, weather-proof resin bonded, anti-bending core. Excellent for laminate overlays.</p>
+                    
+                    <div class="mt-3 bg-slate-50 p-2.5 rounded-xl border border-slate-100">
+                        <span class="text-[10px] uppercase font-bold text-slate-400 block mb-1">Standard Door Width Scales</span>
+                        <div class="flex flex-wrap gap-1">
+                            <span class="text-[10px] font-semibold bg-white border border-slate-200 text-slate-700 px-1.5 py-0.5 rounded">25mm</span>
+                            <span class="text-[10px] font-semibold bg-white border border-slate-200 text-slate-700 px-1.5 py-0.5 rounded">30mm</span>
+                            <span class="text-[10px] font-semibold bg-white border border-slate-200 text-slate-700 px-1.5 py-0.5 rounded">32mm</span>
+                            <span class="text-[10px] font-semibold bg-white border border-slate-200 text-slate-700 px-1.5 py-0.5 rounded">35mm</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-bold text-slate-700 bg-slate-100 px-2 py-0.5 rounded">Height: 7 & 8 Feet</span>
+                        <a href="https://wa.me/919466809141?text=Hi%20SK%20Trading,%20I%20am%20interested%20in%20ordering%20Commercial%20Solid%20Flush%20Doors." target="_blank" class="inline-flex items-center gap-1 text-xs font-bold text-emerald-600 hover:text-emerald-700 bg-emerald-50 px-3 py-1.5 rounded-lg transition-colors">WhatsApp <i data-lucide="arrow-up-right" class="w-3 h-3"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden flex flex-col group transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-category="sunmica">
+                <div class="h-52 bg-slate-50 relative overflow-hidden flex items-center justify-center p-6">
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=500" alt="Laminates Collection" class="max-h-full max-w-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform">
+                </div>
+                <div class="p-5 flex flex-col flex-grow">
+                    <span class="text-xs font-bold text-amber-600 uppercase tracking-wider mb-1">Trending Textures</span>
+                    <h3 class="text-base font-bold text-slate-900 group-hover:text-amber-600 transition-colors">Glance Glossy & Skyline Matte Laminates</h3>
+                    <p class="text-slate-500 text-xs mt-2 flex-grow">Premium designer sunmica portfolio featuring Adore HD models, premium Zest Mica micro-textures, and high-end metallic sparkles.</p>
+                    
+                    <div class="mt-3 bg-slate-50 p-2.5 rounded-xl border border-slate-100">
+                        <span class="text-[10px] uppercase font-bold text-slate-400 block mb-1">Catalog Specialities</span>
+                        <div class="flex flex-wrap gap-1">
+                            <span class="text-[10px] font-bold text-slate-700 bg-white border border-slate-200 px-1.5 py-0.5 rounded">1.0mm Premium</span>
+                            <span class="text-[10px] font-bold text-slate-700 bg-white border border-slate-200 px-1.5 py-0.5 rounded">High Gloss</span>
+                            <span class="text-[10px] font-bold text-slate-700 bg-white border border-slate-200 px-1.5 py-0.5 rounded">Suede Matte</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-medium text-slate-400">8x4 Feet Catalog</span>
+                        <a href="https://wa.me/919466809141?text=Hi%20SK%20Trading,%20I%20want%20to%20see%20the%20latest%20Glance%20and%20Skyline%20Sunmica%20catalogs." target="_blank" class="inline-flex items-center gap-1 text-xs font-bold text-emerald-600 hover:text-emerald-700 bg-emerald-50 px-3 py-1.5 rounded-lg transition-colors">WhatsApp <i data-lucide="arrow-up-right" class="w-3 h-3"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="bg-slate-900 text-white py-20 px-4 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="space-y-6">
+                <h2 class="text-3xl font-extrabold tracking-tight">Visit Our Wholesale Depot</h2>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Aap counter par aakar live structural strength check kar sakte hain, different sunmica catalogs aur multi-thickness plywood boards select kar sakte hain. Fully verified authentic stock solutions under one roof.
+                </p>
+                <div class="space-y-4 text-sm text-slate-300">
+                    <p class="flex items-center gap-3"><i data-lucide="user" class="text-amber-500 w-5 h-5 shrink-0"></i> <span><strong>Proprietor:</strong> Sunil Kumar</span></p>
+                    <p class="flex items-start gap-3"><i data-lucide="map-pin" class="text-amber-500 w-5 h-5 shrink-0 mt-0.5"></i> <span><strong>Store Location:</strong> Hakikat Nagar, Central Market Zone, Karnal, Haryana</span></p>
+                    <p class="flex items-center gap-3"><i data-lucide="phone-call" class="text-amber-500 w-5 h-5 shrink-0"></i> <span><strong>Hotline Call:</strong> +91 94668 09141</span></p>
+                </div>
+                <div class="pt-4">
+                    <a href="https://maps.google.com/?q=Hakikat+Nagar,+Karnal" target="_blank" class="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold px-6 py-3 rounded-xl transition-colors text-sm shadow-xl shadow-amber-500/10">
+                        <i data-lucide="compass"></i> Launch Google Maps Navigation
+                    </a>
+                </div>
+            </div>
+            
+            <div class="bg-slate-850 border border-slate-800 rounded-3xl p-10 flex flex-col items-center justify-center text-center h-72 relative overflow-hidden group">
+                <div class="absolute inset-0 opacity-5 bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px)] bg-[size:30px_30px]"></div>
+                <div class="w-14 h-14 rounded-2xl bg-amber-500/10 flex items-center justify-center text-amber-500 mb-5 group-hover:scale-110 transition-transform">
+                    <i data-lucide="store" class="w-6 h-6"></i>
+                </div>
+                <h4 class="text-lg font-bold text-slate-200">Karnal Architectural Market</h4>
+                <p class="text-xs text-slate-500 max-w-xs mt-2">Instant loading warehouse. On-vehicle cargo packaging available for wholesale commercial orders across Karnal district limits.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="fixed bottom-0 inset-x-0 bg-white border-t border-slate-100 shadow-2xl z-50 py-3.5 px-6 flex items-center justify-around text-slate-600 md:hidden">
+        <a href="tel:+919466809141" class="flex flex-col items-center gap-1 text-[10px] font-bold uppercase tracking-wider hover:text-amber-600">
+            <i data-lucide="phone-call" class="w-5 h-5 text-slate-900"></i> Call Counter
+        </a>
+        <a href="https://wa.me/919466809141" target="_blank" class="flex flex-col items-center gap-1 text-[10px] font-bold uppercase tracking-wider hover:text-emerald-600">
+            <i data-lucide="message-circle" class="w-5 h-5 text-emerald-600"></i> WhatsApp
+        </a>
+        <a href="https://maps.google.com/?q=Hakikat+Nagar,+Karnal" target="_blank" class="flex flex-col items-center gap-1 text-[10px] font-bold uppercase tracking-wider hover:text-amber-600">
+            <i data-lucide="map-pin" class="w-5 h-5 text-amber-600"></i> Route Map
+        </a>
     </div>
-  </div>
-</section>
 
-<!-- ============ TRUST STRIP ============ -->
-<section class="trust-strip reveal">
-  <div class="trust-item">
-    <span class="trust-icon">🪵</span>
-    <span>Genuine Plywood Grades</span>
-  </div>
-  <div class="trust-item">
-    <span class="trust-icon">🔩</span>
-    <span>Full Hardware Range</span>
-  </div>
-  <div class="trust-item">
-    <span class="trust-icon">📦</span>
-    <span>Order on WhatsApp</span>
-  </div>
-  <div class="trust-item">
-    <span class="trust-icon">📍</span>
-    <span>Local Karnal Store</span>
-  </div>
-</section>
+    <footer class="bg-slate-950 text-slate-600 text-center py-7 text-xs border-t border-slate-900 pb-24 md:pb-7">
+        © 2026 SK TRADING. All Rights Reserved. • Designed with Pure Single-File Premium Catalog Layout.
+    </footer>
 
-<!-- ============ PLYWOOD SECTION ============ -->
-<section class="catalog-section" id="plywood">
-  <div class="section-head reveal">
-    <p class="section-eyebrow">Sheet Stock</p>
-    <h2 class="section-title">Plywood Collection</h2>
-    <p class="section-desc">Interior, MR-grade and marine plywood — cut and ready for your next job.</p>
-  </div>
-  <div class="product-grid" id="plywoodGrid"></div>
-</section>
+    <script>
+        // Start Vectors
+        lucide.createIcons();
 
-<!-- ============ HARDWARE SECTION ============ -->
-<section class="catalog-section alt" id="hardware">
-  <div class="section-head reveal">
-    <p class="section-eyebrow">Fittings &amp; Tools</p>
-    <h2 class="section-title">Hardware Collection</h2>
-    <p class="section-desc">Locks, hinges, fasteners and everyday tools — everything the workshop needs.</p>
-  </div>
-  <div class="product-grid" id="hardwareGrid"></div>
-</section>
+        function filterCategory(category) {
+            const grid = document.getElementById('products-grid');
+            const items = grid.getElementsByTagName('div');
+            
+            for (let i = 0; i < items.length; i++) {
+                if (items[i].hasAttribute('data-category')) {
+                    const itemCategory = items[i].getAttribute('data-category');
+                    if (category === 'all' || itemCategory === category) {
+                        items[i].classList.remove('category-hide');
+                    } else {
+                        items[i].classList.add('category-hide');
+                    }
+                }
+            }
 
-<!-- ============ REVIEWS ============ -->
-<section class="reviews-section" id="reviews">
-  <div class="section-head reveal">
-    <p class="section-eyebrow">Customer Voices</p>
-    <h2 class="section-title">Reviews</h2>
-    <p class="section-desc">Tell other customers about your experience with SK TRADING.</p>
-  </div>
-
-  <form class="review-form reveal" id="reviewForm">
-    <div class="form-row">
-      <label for="reviewName">Your Name</label>
-      <input type="text" id="reviewName" placeholder="e.g. Ramesh Verma" required maxlength="40">
-    </div>
-    <div class="form-row">
-      <label for="reviewRating">Rating</label>
-      <div class="star-input" id="starInput" data-rating="5">
-        <button type="button" class="star" data-value="1" aria-label="1 star">★</button>
-        <button type="button" class="star" data-value="2" aria-label="2 stars">★</button>
-        <button type="button" class="star" data-value="3" aria-label="3 stars">★</button>
-        <button type="button" class="star" data-value="4" aria-label="4 stars">★</button>
-        <button type="button" class="star" data-value="5" aria-label="5 stars">★</button>
-      </div>
-    </div>
-    <div class="form-row">
-      <label for="reviewText">Your Review</label>
-      <textarea id="reviewText" rows="3" placeholder="Share your experience..." required maxlength="300"></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">Post Review</button>
-  </form>
-
-  <div class="review-list" id="reviewList"></div>
-</section>
-
-<!-- ============ CONTACT / MAP ============ -->
-<section class="contact-section" id="contact">
-  <div class="contact-inner reveal">
-    <div class="contact-info">
-      <p class="section-eyebrow">Visit Us</p>
-      <h2 class="section-title">Find SK TRADING</h2>
-      <ul class="contact-list">
-        <li><strong>Owner:</strong> Sunil Kumar</li>
-        <li><strong>Address:</strong> Hakikat Nagar, Karnal</li>
-        <li><strong>Phone:</strong> <a href="tel:+919466809141">+91 94668 09141</a></li>
-        <li><strong>Website:</strong> <a href="https://sktrading-krnl.github.io" target="_blank" rel="noopener">sktrading-krnl.github.io</a></li>
-      </ul>
-    </div>
-    <div class="map-frame">
-      <a href="https://www.google.com/maps/search/?api=1&query=Hakikat+Nagar+Karnal" target="_blank" rel="noopener" class="map-placeholder">
-        <span class="map-pin">📍</span>
-        <span>Open Google Maps Location</span>
-        <small>(Tap to view — pin can be refined by the owner anytime)</small>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- ============ CART DRAWER ============ -->
-<div class="cart-overlay" id="cartOverlay"></div>
-<aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart">
-  <div class="cart-drawer-head">
-    <h3>Your Order Slip</h3>
-    <button class="cart-close" id="cartClose" aria-label="Close cart">&times;</button>
-  </div>
-  <div class="cart-items" id="cartItems">
-    <p class="cart-empty" id="cartEmpty">Your cart is empty. Add some plywood or hardware to get started.</p>
-  </div>
-  <div class="cart-summary">
-    <div class="cart-total-row">
-      <span>Estimated Total</span>
-      <span id="cartTotal">₹0</span>
-    </div>
-    <p class="cart-note">Final pricing confirmed by SK TRADING on WhatsApp.</p>
-    <button class="btn btn-checkout" id="checkoutBtn">Checkout on WhatsApp</button>
-  </div>
-</aside>
-
-<!-- ============ FOOTER ============ -->
-<footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-brand">
-      <span class="brand-name">SK TRADING</span>
-      <span class="brand-sub">Hardware &amp; Plywood Store</span>
-      <p>Hakikat Nagar, Karnal · Owner: Sunil Kumar</p>
-    </div>
-    <p class="footer-copy">&copy; <span id="year"></span> SK TRADING. All rights reserved. &middot; <a href="https://sktrading-krnl.github.io" target="_blank" rel="noopener">sktrading-krnl.github.io</a></p>
-  </div>
-</footer>
-
-<!-- ============ STICKY ACTION BAR (mobile-first) ============ -->
-<div class="action-bar">
-  <a href="tel:+919466809141" class="action-btn call">
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2z"/></svg>
-    <span>Call Now</span>
-  </a>
-  <a href="#" class="action-btn whatsapp" id="barWhatsapp">
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.5 3.5A11.6 11.6 0 0 0 12.1 0C5.7 0 .5 5.2.5 11.6c0 2 .5 4 1.5 5.7L0 24l6.9-1.8a11.6 11.6 0 0 0 5.2 1.3h.1c6.4 0 11.6-5.2 11.6-11.6 0-3.1-1.2-6-3.3-8.4zM12.1 21.3h-.1c-1.6 0-3.2-.4-4.6-1.3l-.3-.2-3.4.9.9-3.3-.2-.3a9.5 9.5 0 0 1-1.5-5.1 9.6 9.6 0 0 1 16.4-6.8 9.5 9.5 0 0 1 2.8 6.8c0 5.3-4.3 9.6-9.6 9.6zm5.2-7.2c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1-.2.2-.3.2-.6.1a7.8 7.8 0 0 1-2.3-1.4 8.6 8.6 0 0 1-1.6-2c-.2-.3 0-.5.1-.6l.4-.5.2-.4c.1-.1.1-.3 0-.4-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.2.9 2.4 1 2.6.1.2 1.8 2.8 4.4 3.9.6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.7-.7 1.9-1.3.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3z"/></svg>
-    <span>WhatsApp Us</span>
-  </a>
-  <a href="https://www.google.com/maps/search/?api=1&query=Hakikat+Nagar+Karnal" target="_blank" rel="noopener" class="action-btn maps">
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-    <span>Location</span>
-  </a>
-</div>
-
-<!-- ============ IMAGE LIGHTBOX ============ -->
-<div class="lightbox" id="lightbox">
-  <button class="lightbox-close" id="lightboxClose" aria-label="Close image">&times;</button>
-  <img src="" alt="" id="lightboxImg">
-</div>
-
-<script src="script.js"></script>
+            const buttons = ['all', 'hardware', 'plywood', 'mdf', 'hardwood', 'sunmica'];
+            buttons.forEach(btn => {
+                const element = document.getElementById('btn-' + btn);
+                if (btn === category) {
+                    element.className = "snap-center shrink-0 px-6 py-3 rounded-full text-sm font-bold transition-all cursor-pointer bg-slate-900 text-white shadow-md";
+                } else {
+                    element.className = "snap-center shrink-0 px-6 py-3 rounded-full text-sm font-medium transition-all cursor-pointer bg-white text-slate-600 hover:bg-slate-50 border border-slate-200";
+                }
+            });
+        }
+    </script>
 </body>
 </html>
